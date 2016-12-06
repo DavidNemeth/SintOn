@@ -5,19 +5,22 @@ using System.Linq;
 using System.Threading.Tasks;
 using Template10.Services.NavigationService;
 using Windows.UI.Xaml.Navigation;
+using SintOn.Models;
 
 namespace SintOn.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
+        ITextToMachine _textToMachine;
         public MainPageViewModel()
         {
+            _textToMachine = new TextToMachine();
             if (Windows.ApplicationModel.DesignMode.DesignModeEnabled)
-            {
+            {                
                 Value = "Designtime value";
             }
         }
-
+        
         string _Value = "";
         public string Value { get { return _Value; } set { Set(ref _Value, value); } }
 
@@ -25,7 +28,7 @@ namespace SintOn.ViewModels
         {
             if (suspensionState.Any())
             {
-                Value = suspensionState[nameof(Value)]?.ToString();
+                Value = suspensionState[nameof(Value)]?.ToString();                
             }
             await Task.CompletedTask;
         }
@@ -46,7 +49,7 @@ namespace SintOn.ViewModels
         }
 
         public void GotoDetailsPage() =>
-            NavigationService.Navigate(typeof(Views.DetailPage), Value);
+            NavigationService.Navigate(typeof(Views.DetailPage), _textToMachine.Append(Value));
 
         public void GotoSettings() =>
             NavigationService.Navigate(typeof(Views.SettingsPage), 0);

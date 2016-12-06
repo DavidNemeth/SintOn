@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace SintOn.Models
 {
-    public class TextToMachine
+    public class TextToMachine : ITextToMachine
     {
-        public List<string> Append(string input)
-        {
-            List<string> ret = new List<string>();
-            try
-            {
+        public string Append(string input)
+        {            
+            StringBuilder ret = new StringBuilder();
+            
                 var lines = input.Split('\n');
                 foreach (var line in lines)
                 {
@@ -22,10 +21,19 @@ namespace SintOn.Models
                     }
                     int count = 1;
                     var index = line.Split(' ');
+                    if (index.Length < 2)
+                    {
+                        continue;
+                    }
                     var text = index[1];
                     StringBuilder sb = new StringBuilder();
-                    for (int i = 0; i < text.Length; i++)
+                    for (int i = 0; i < text.Length-1; i++)
                     {
+
+                        if (String.IsNullOrEmpty(text))
+                        {
+                            continue;
+                        }
                         if (text[i] == text[i + 1])
                         {
                             count++;
@@ -46,14 +54,10 @@ namespace SintOn.Models
                         {
                             sb.Append(string.Format($"{count}{text[i]}"));
                         }
-                    }
-                    ret.Add(index[0] + " " + sb.ToString());
+                    }                    
+                    ret.AppendLine(index[0] + " " + sb.ToString());
                 }
-            }
-            catch (Exception)
-            {
-            }
-            return ret;
+            return ret.ToString();
         }        
     }
 }

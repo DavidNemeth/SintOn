@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>80db82a1-d8f9-4d7d-bca5-be16db447cf5</PackageIdentityName>
     <PackageIdentityPublisher>CN=Dave</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\dave\documents\visual studio 2015\Projects\SintOn\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Dave\Documents\Repositories\SintOn\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-05T07:01:37.275</Modified>
+      <Modified>2016-12-06T13:00:43.940</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\bin\x86\Debug\SintOn.exe">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\SintOn.exe">
       <PackagePath>entrypoint\SintOn.exe</PackagePath>
-      <Modified>2016-12-05T07:01:35.333</Modified>
+      <Modified>2016-12-06T13:00:43.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dave\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -508,49 +508,49 @@
       <PackagePath>Template10Library.dll</PackagePath>
       <Modified>2016-10-17T09:42:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Help.htm">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Help.htm">
       <PackagePath>Help.htm</PackagePath>
       <Modified>2016-12-05T07:01:14.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-12-05T07:01:14.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2016-12-05T07:01:14.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-05T07:01:14.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-05T07:01:14.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-05T07:01:14.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-05T07:01:14.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-05T07:01:14.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-05T07:01:14.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\bin\x86\Debug\SintOn.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\SintOn.xr.xml">
       <PackagePath>SintOn.xr.xml</PackagePath>
       <Modified>2016-12-05T07:01:34.949</Modified>
     </AppxPackagedFile>
@@ -590,14 +590,14 @@
       <PackagePath>Template10Library\Themes\Resizer.xaml</PackagePath>
       <Modified>2016-10-17T09:42:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-05T07:01:36.786</Modified>
+      <Modified>2016-12-06T13:00:43.692</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\dave\documents\visual studio 2015\Projects\SintOn\bin\x86\Debug\Core\SintOn.exe">
+    <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\Core\SintOn.exe">
       <PackagePath>SintOn.exe</PackagePath>
-      <Modified>2016-12-05T07:01:37.259</Modified>
+      <Modified>2016-12-06T13:00:43.937</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
