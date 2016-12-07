@@ -65,7 +65,10 @@
                       VerticalScrollBarVisibility="Auto">
             <StackPanel>
                 <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="You passed:" />
-                <TextBlock x:ConnectionId='8'                                                                              />
+                <TextBox x:ConnectionId='8' MinWidth="150"
+                         MinHeight="62"                         
+                                                                                                    
+                         TextWrapping="Wrap"/>
             </StackPanel>
         </ScrollViewer>
 

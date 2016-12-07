@@ -63,9 +63,9 @@ namespace SintOn.Models
         {
             StringBuilder ret = new StringBuilder();            
             var lines = input.Split('\n');
+            int count = 0;
             foreach (var line in lines)
-            {
-                int count = 0;
+            {                
                 if (String.IsNullOrEmpty(line))
                 {
                     continue;
@@ -79,17 +79,38 @@ namespace SintOn.Models
 
                 string part = index[1];
                 int n = part.Length;
-
-                foreach (var ch in line)
+                int temp = part.Length;
+                if (n < 100)
                 {
-                    count++;
-                    if (count % 100 == 0)
-                    {
-                        ret.AppendLine("$");
-                        ret.Append("$");
-                    }
-                    ret.Append(ch);
+                    ret.Append((nline + count).ToString() + " " + part);
+                    continue;
                 }
+                while (n != 0)
+                {
+                    ret.Append((nline + count).ToString());                    
+                    if (n > 100)
+                    {
+                        ret.AppendLine(" " + part.Substring(temp - n, 100) + "$");
+                        n -= 100;
+                        count++;
+                    }
+                    else
+                    {
+                        ret.Append(" $" + part.Substring(temp - n , n));
+                        n = 0;
+                    }
+                }
+
+                //foreach (var ch in line)
+                //{
+                //    count++;
+                //    if (count % 100 == 0)
+                //    {
+                //        ret.AppendLine("$");
+                //        ret.Append("$");
+                //    }
+                //    ret.Append(ch);
+                //}
                 
             }
             return ret.ToString();

@@ -65,7 +65,10 @@
                       VerticalScrollBarVisibility="Auto">
             <StackPanel>
                 <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="You passed:" />
-                <TextBlock  Text="{x:Bind ViewModel.Value, Mode=OneWay, FallbackValue=DesigntimeValue}" />
+                <TextBox MinWidth="150"
+                         MinHeight="62"                         
+                         Text="{x:Bind ViewModel.Value, Mode=OneWay, FallbackValue=DesigntimeValue}"
+                         TextWrapping="Wrap"/>
             </StackPanel>
         </ScrollViewer>
 

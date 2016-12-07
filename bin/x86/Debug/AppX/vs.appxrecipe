@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-07T02:49:34.163</Modified>
+      <Modified>2016-12-07T03:43:20.958</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\SintOn.exe">
       <PackagePath>entrypoint\SintOn.exe</PackagePath>
-      <Modified>2016-12-07T02:49:33.457</Modified>
+      <Modified>2016-12-07T03:43:20.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dave\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -552,7 +552,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\SintOn.xr.xml">
       <PackagePath>SintOn.xr.xml</PackagePath>
-      <Modified>2016-12-05T07:01:34.949</Modified>
+      <Modified>2016-12-07T03:43:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -593,11 +593,11 @@
     <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-07T02:49:33.916</Modified>
+      <Modified>2016-12-07T03:43:20.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\Core\SintOn.exe">
       <PackagePath>SintOn.exe</PackagePath>
-      <Modified>2016-12-07T02:49:34.161</Modified>
+      <Modified>2016-12-07T03:43:20.955</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
