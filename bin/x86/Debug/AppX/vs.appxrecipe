@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-06T13:00:43.940</Modified>
+      <Modified>2016-12-07T02:49:34.163</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\SintOn.exe">
       <PackagePath>entrypoint\SintOn.exe</PackagePath>
-      <Modified>2016-12-06T13:00:43.225</Modified>
+      <Modified>2016-12-07T02:49:33.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dave\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -92,13 +92,13 @@
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
       <Modified>2016-06-11T21:13:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dave\.nuget\packages\Microsoft.Xaml.Behaviors.Uwp.Managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+    <AppxPackagedFile Include="C:\Users\Dave\.nuget\packages\Microsoft.Xaml.Behaviors.Uwp.Managed\2.0.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
-      <Modified>2016-02-22T12:59:50.000</Modified>
+      <Modified>2016-10-19T15:07:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dave\.nuget\packages\Microsoft.Xaml.Behaviors.Uwp.Managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+    <AppxPackagedFile Include="C:\Users\Dave\.nuget\packages\Microsoft.Xaml.Behaviors.Uwp.Managed\2.0.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
-      <Modified>2016-02-22T12:59:50.000</Modified>
+      <Modified>2016-10-19T15:07:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dave\.nuget\packages\Newtonsoft.Json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -593,11 +593,11 @@
     <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-06T13:00:43.692</Modified>
+      <Modified>2016-12-07T02:49:33.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dave\Documents\Repositories\SintOn\bin\x86\Debug\Core\SintOn.exe">
       <PackagePath>SintOn.exe</PackagePath>
-      <Modified>2016-12-06T13:00:43.937</Modified>
+      <Modified>2016-12-07T02:49:34.161</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -156,7 +156,7 @@ namespace SintOn.SintOn_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[78];
+            _typeNameTable = new string[79];
             _typeNameTable[0] = "Template10.Common.BootStrapper";
             _typeNameTable[1] = "Windows.UI.Xaml.Application";
             _typeNameTable[2] = "Template10.Common.StateItems";
@@ -223,20 +223,21 @@ namespace SintOn.SintOn_XamlTypeInfo
             _typeNameTable[63] = "Windows.System.VirtualKey";
             _typeNameTable[64] = "Template10.Behaviors.KeyBehavior.Kinds";
             _typeNameTable[65] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
-            _typeNameTable[66] = "Microsoft.Xaml.Interactivity.Behavior";
-            _typeNameTable[67] = "Template10.Behaviors.FocusAction";
-            _typeNameTable[68] = "Microsoft.Xaml.Interactions.Core.CallMethodAction";
-            _typeNameTable[69] = "SintOn.Views.MainPage";
-            _typeNameTable[70] = "SintOn.ViewModels.SettingsPageViewModel";
-            _typeNameTable[71] = "SintOn.ViewModels.SettingsPartViewModel";
-            _typeNameTable[72] = "SintOn.ViewModels.AboutPartViewModel";
-            _typeNameTable[73] = "Template10.Converters.ValueWhenConverter";
-            _typeNameTable[74] = "SintOn.Views.SettingsPage";
-            _typeNameTable[75] = "Template10.Behaviors.MessageDialogAction";
-            _typeNameTable[76] = "SintOn.Views.Shell";
-            _typeNameTable[77] = "SintOn.Views.Splash";
+            _typeNameTable[66] = "Microsoft.Xaml.Interactivity.Trigger";
+            _typeNameTable[67] = "Microsoft.Xaml.Interactivity.Behavior";
+            _typeNameTable[68] = "Template10.Behaviors.FocusAction";
+            _typeNameTable[69] = "Microsoft.Xaml.Interactions.Core.CallMethodAction";
+            _typeNameTable[70] = "SintOn.Views.MainPage";
+            _typeNameTable[71] = "SintOn.ViewModels.SettingsPageViewModel";
+            _typeNameTable[72] = "SintOn.ViewModels.SettingsPartViewModel";
+            _typeNameTable[73] = "SintOn.ViewModels.AboutPartViewModel";
+            _typeNameTable[74] = "Template10.Converters.ValueWhenConverter";
+            _typeNameTable[75] = "SintOn.Views.SettingsPage";
+            _typeNameTable[76] = "Template10.Behaviors.MessageDialogAction";
+            _typeNameTable[77] = "SintOn.Views.Shell";
+            _typeNameTable[78] = "SintOn.Views.Splash";
 
-            _typeTable = new global::System.Type[78];
+            _typeTable = new global::System.Type[79];
             _typeTable[0] = typeof(global::Template10.Common.BootStrapper);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Application);
             _typeTable[2] = typeof(global::Template10.Common.StateItems);
@@ -303,18 +304,19 @@ namespace SintOn.SintOn_XamlTypeInfo
             _typeTable[63] = typeof(global::Windows.System.VirtualKey);
             _typeTable[64] = typeof(global::Template10.Behaviors.KeyBehavior.Kinds);
             _typeTable[65] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
-            _typeTable[66] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
-            _typeTable[67] = typeof(global::Template10.Behaviors.FocusAction);
-            _typeTable[68] = typeof(global::Microsoft.Xaml.Interactions.Core.CallMethodAction);
-            _typeTable[69] = typeof(global::SintOn.Views.MainPage);
-            _typeTable[70] = typeof(global::SintOn.ViewModels.SettingsPageViewModel);
-            _typeTable[71] = typeof(global::SintOn.ViewModels.SettingsPartViewModel);
-            _typeTable[72] = typeof(global::SintOn.ViewModels.AboutPartViewModel);
-            _typeTable[73] = typeof(global::Template10.Converters.ValueWhenConverter);
-            _typeTable[74] = typeof(global::SintOn.Views.SettingsPage);
-            _typeTable[75] = typeof(global::Template10.Behaviors.MessageDialogAction);
-            _typeTable[76] = typeof(global::SintOn.Views.Shell);
-            _typeTable[77] = typeof(global::SintOn.Views.Splash);
+            _typeTable[66] = typeof(global::Microsoft.Xaml.Interactivity.Trigger);
+            _typeTable[67] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
+            _typeTable[68] = typeof(global::Template10.Behaviors.FocusAction);
+            _typeTable[69] = typeof(global::Microsoft.Xaml.Interactions.Core.CallMethodAction);
+            _typeTable[70] = typeof(global::SintOn.Views.MainPage);
+            _typeTable[71] = typeof(global::SintOn.ViewModels.SettingsPageViewModel);
+            _typeTable[72] = typeof(global::SintOn.ViewModels.SettingsPartViewModel);
+            _typeTable[73] = typeof(global::SintOn.ViewModels.AboutPartViewModel);
+            _typeTable[74] = typeof(global::Template10.Converters.ValueWhenConverter);
+            _typeTable[75] = typeof(global::SintOn.Views.SettingsPage);
+            _typeTable[76] = typeof(global::Template10.Behaviors.MessageDialogAction);
+            _typeTable[77] = typeof(global::SintOn.Views.Shell);
+            _typeTable[78] = typeof(global::SintOn.Views.Splash);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -366,16 +368,16 @@ namespace SintOn.SintOn_XamlTypeInfo
         private object Activate_61_KeyBehavior() { return new global::Template10.Behaviors.KeyBehavior(); }
         private object Activate_62_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
         private object Activate_65_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
-        private object Activate_67_FocusAction() { return new global::Template10.Behaviors.FocusAction(); }
-        private object Activate_68_CallMethodAction() { return new global::Microsoft.Xaml.Interactions.Core.CallMethodAction(); }
-        private object Activate_69_MainPage() { return new global::SintOn.Views.MainPage(); }
-        private object Activate_70_SettingsPageViewModel() { return new global::SintOn.ViewModels.SettingsPageViewModel(); }
-        private object Activate_71_SettingsPartViewModel() { return new global::SintOn.ViewModels.SettingsPartViewModel(); }
-        private object Activate_72_AboutPartViewModel() { return new global::SintOn.ViewModels.AboutPartViewModel(); }
-        private object Activate_73_ValueWhenConverter() { return new global::Template10.Converters.ValueWhenConverter(); }
-        private object Activate_74_SettingsPage() { return new global::SintOn.Views.SettingsPage(); }
-        private object Activate_75_MessageDialogAction() { return new global::Template10.Behaviors.MessageDialogAction(); }
-        private object Activate_76_Shell() { return new global::SintOn.Views.Shell(); }
+        private object Activate_68_FocusAction() { return new global::Template10.Behaviors.FocusAction(); }
+        private object Activate_69_CallMethodAction() { return new global::Microsoft.Xaml.Interactions.Core.CallMethodAction(); }
+        private object Activate_70_MainPage() { return new global::SintOn.Views.MainPage(); }
+        private object Activate_71_SettingsPageViewModel() { return new global::SintOn.ViewModels.SettingsPageViewModel(); }
+        private object Activate_72_SettingsPartViewModel() { return new global::SintOn.ViewModels.SettingsPartViewModel(); }
+        private object Activate_73_AboutPartViewModel() { return new global::SintOn.ViewModels.AboutPartViewModel(); }
+        private object Activate_74_ValueWhenConverter() { return new global::Template10.Converters.ValueWhenConverter(); }
+        private object Activate_75_SettingsPage() { return new global::SintOn.Views.SettingsPage(); }
+        private object Activate_76_MessageDialogAction() { return new global::Template10.Behaviors.MessageDialogAction(); }
+        private object Activate_77_Shell() { return new global::SintOn.Views.Shell(); }
         private void MapAdd_2_StateItems(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -1060,69 +1062,75 @@ namespace SintOn.SintOn_XamlTypeInfo
                 break;
 
             case 65:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
-                userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
+                userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Trigger"));
                 userType.Activator = Activate_65_EventTriggerBehavior;
-                userType.SetContentPropertyName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions");
-                userType.AddMemberName("Actions");
+                userType.SetContentPropertyName("Microsoft.Xaml.Interactivity.Trigger.Actions");
                 userType.AddMemberName("EventName");
                 userType.AddMemberName("SourceObject");
                 xamlType = userType;
                 break;
 
-            case 66:   //  Microsoft.Xaml.Interactivity.Behavior
+            case 66:   //  Microsoft.Xaml.Interactivity.Trigger
+                userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
+                userType.SetContentPropertyName("Microsoft.Xaml.Interactivity.Trigger.Actions");
+                userType.AddMemberName("Actions");
+                xamlType = userType;
+                break;
+
+            case 67:   //  Microsoft.Xaml.Interactivity.Behavior
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("AssociatedObject");
                 xamlType = userType;
                 break;
 
-            case 67:   //  Template10.Behaviors.FocusAction
+            case 68:   //  Template10.Behaviors.FocusAction
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_67_FocusAction;
+                userType.Activator = Activate_68_FocusAction;
                 userType.AddMemberName("TargetObject");
                 xamlType = userType;
                 break;
 
-            case 68:   //  Microsoft.Xaml.Interactions.Core.CallMethodAction
+            case 69:   //  Microsoft.Xaml.Interactions.Core.CallMethodAction
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_68_CallMethodAction;
+                userType.Activator = Activate_69_CallMethodAction;
                 userType.AddMemberName("MethodName");
                 userType.AddMemberName("TargetObject");
                 xamlType = userType;
                 break;
 
-            case 69:   //  SintOn.Views.MainPage
+            case 70:   //  SintOn.Views.MainPage
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_69_MainPage;
+                userType.Activator = Activate_70_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 70:   //  SintOn.ViewModels.SettingsPageViewModel
+            case 71:   //  SintOn.ViewModels.SettingsPageViewModel
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
-                userType.Activator = Activate_70_SettingsPageViewModel;
+                userType.Activator = Activate_71_SettingsPageViewModel;
                 userType.AddMemberName("SettingsPartViewModel");
                 userType.AddMemberName("AboutPartViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 71:   //  SintOn.ViewModels.SettingsPartViewModel
+            case 72:   //  SintOn.ViewModels.SettingsPartViewModel
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 72:   //  SintOn.ViewModels.AboutPartViewModel
+            case 73:   //  SintOn.ViewModels.AboutPartViewModel
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Template10.Mvvm.ViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 73:   //  Template10.Converters.ValueWhenConverter
+            case 74:   //  Template10.Converters.ValueWhenConverter
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_73_ValueWhenConverter;
+                userType.Activator = Activate_74_ValueWhenConverter;
                 userType.AddMemberName("When");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("Otherwise");
@@ -1131,30 +1139,30 @@ namespace SintOn.SintOn_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 74:   //  SintOn.Views.SettingsPage
+            case 75:   //  SintOn.Views.SettingsPage
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_74_SettingsPage;
+                userType.Activator = Activate_75_SettingsPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 75:   //  Template10.Behaviors.MessageDialogAction
+            case 76:   //  Template10.Behaviors.MessageDialogAction
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_75_MessageDialogAction;
+                userType.Activator = Activate_76_MessageDialogAction;
                 userType.AddMemberName("Title");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("OkText");
                 xamlType = userType;
                 break;
 
-            case 76:   //  SintOn.Views.Shell
+            case 77:   //  SintOn.Views.Shell
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_76_Shell;
+                userType.Activator = Activate_77_Shell;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 77:   //  SintOn.Views.Splash
+            case 78:   //  SintOn.Views.Splash
                 userType = new global::SintOn.SintOn_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -2156,9 +2164,9 @@ namespace SintOn.SintOn_XamlTypeInfo
             var that = (global::Template10.Behaviors.KeyBehavior)instance;
             that.Event = (global::Template10.Behaviors.KeyBehavior.Kinds)Value;
         }
-        private object get_98_EventTriggerBehavior_Actions(object instance)
+        private object get_98_Trigger_Actions(object instance)
         {
-            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            var that = (global::Microsoft.Xaml.Interactivity.Trigger)instance;
             return that.Actions;
         }
         private object get_99_EventTriggerBehavior_EventName(object instance)
@@ -2970,11 +2978,11 @@ namespace SintOn.SintOn_XamlTypeInfo
                 xamlMember.Getter = get_97_KeyBehavior_Event;
                 xamlMember.Setter = set_97_KeyBehavior_Event;
                 break;
-            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions":
-                userType = (global::SintOn.SintOn_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+            case "Microsoft.Xaml.Interactivity.Trigger.Actions":
+                userType = (global::SintOn.SintOn_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactivity.Trigger");
                 xamlMember = new global::SintOn.SintOn_XamlTypeInfo.XamlMember(this, "Actions", "Microsoft.Xaml.Interactivity.ActionCollection");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_98_EventTriggerBehavior_Actions;
+                xamlMember.Getter = get_98_Trigger_Actions;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.EventName":

@@ -9,55 +9,90 @@ namespace SintOn.Models
     public class TextToMachine : ITextToMachine
     {
         public string Append(string input)
-        {            
+        {
             StringBuilder ret = new StringBuilder();
-            
-                var lines = input.Split('\n');
-                foreach (var line in lines)
-                {
-                    if (String.IsNullOrEmpty(line))
-                    {
-                        continue;
-                    }
-                    int count = 1;
-                    var index = line.Split(' ');
-                    if (index.Length < 2)
-                    {
-                        continue;
-                    }
-                    var text = index[1];
-                    StringBuilder sb = new StringBuilder();
-                    for (int i = 0; i < text.Length-1; i++)
-                    {
 
-                        if (String.IsNullOrEmpty(text))
+            var lines = input.Split('\n');
+            foreach (var line in lines)
+            {
+                if (String.IsNullOrEmpty(line))
+                {
+                    continue;
+                }
+                int count = 1;
+                var index = line.Split(' ');
+                if (index.Length != 2)
+                {
+                    continue;
+                }
+                var text = index[1];
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < text.Length - 1; i++)
+                {
+
+                    if (String.IsNullOrEmpty(text))
+                    {
+                        continue;
+                    }
+                    if (text[i] == text[i + 1])
+                    {
+                        count++;
+                    }
+                    else
+                    {
+                        if (count > 1)
                         {
-                            continue;
-                        }
-                        if (text[i] == text[i + 1])
-                        {
-                            count++;
+                            sb.Append(string.Format($"{count}{text[i]}"));
+                            count = 1;
                         }
                         else
                         {
-                            if (count > 1)
-                            {
-                                sb.Append(string.Format($"{count}{text[i]}"));
-                                count = 1;
-                            }
-                            else
-                            {
-                                sb.Append(string.Format($"{text[i]}"));
-                            }
+                            sb.Append(string.Format($"{text[i]}"));
                         }
-                        if (i == text.Length - 2)
-                        {
-                            sb.Append(string.Format($"{count}{text[i]}"));
-                        }
-                    }                    
-                    ret.AppendLine(index[0] + " " + sb.ToString());
+                    }
+                    if (i == text.Length - 2)
+                    {
+                        sb.Append(string.Format($"{count}{text[i]}"));
+                    }
                 }
+                ret.AppendLine(index[0] + " " + sb.ToString());
+            }
             return ret.ToString();
-        }        
+        }
+        public string FixLength(string input)
+        {
+            StringBuilder ret = new StringBuilder();            
+            var lines = input.Split('\n');
+            foreach (var line in lines)
+            {
+                int count = 0;
+                if (String.IsNullOrEmpty(line))
+                {
+                    continue;
+                }                
+                var index = line.Split(' ');
+                if (index.Length != 2)
+                {
+                    continue;
+                }
+                int nline = Convert.ToInt32(index[0]);
+
+                string part = index[1];
+                int n = part.Length;
+
+                foreach (var ch in line)
+                {
+                    count++;
+                    if (count % 100 == 0)
+                    {
+                        ret.AppendLine("$");
+                        ret.Append("$");
+                    }
+                    ret.Append(ch);
+                }
+                
+            }
+            return ret.ToString();
+        }
     }
 }

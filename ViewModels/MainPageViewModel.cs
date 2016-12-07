@@ -49,7 +49,7 @@ namespace SintOn.ViewModels
         }
 
         public void GotoDetailsPage() =>
-            NavigationService.Navigate(typeof(Views.DetailPage), _textToMachine.Append(Value));
+            NavigationService.Navigate(typeof(Views.DetailPage), _textToMachine.FixLength(Value));
 
         public void GotoSettings() =>
             NavigationService.Navigate(typeof(Views.SettingsPage), 0);

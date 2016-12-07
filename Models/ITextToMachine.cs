@@ -9,5 +9,6 @@ namespace SintOn.Models
     public interface ITextToMachine
     {
         string Append(string input);
+        string FixLength(string input);
     }
 }
