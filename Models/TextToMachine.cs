@@ -100,18 +100,6 @@ namespace SintOn.Models
                         n = 0;
                     }
                 }
-
-                //foreach (var ch in line)
-                //{
-                //    count++;
-                //    if (count % 100 == 0)
-                //    {
-                //        ret.AppendLine("$");
-                //        ret.Append("$");
-                //    }
-                //    ret.Append(ch);
-                //}
-                
             }
             return ret.ToString();
         }
